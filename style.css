@@ -1,0 +1,364 @@
+html {
+  font-family: "Inconsolata Regular";
+  background-image: url("./assets/images/background-desktop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0;
+}
+
+.a---- img {
+  position: fixed;
+  width: 100%;
+}
+.a---- svg {
+  position: fixed;
+}
+.a---- #ln svg {
+  left: 13rem;
+}
+.a---- #c svg {
+  left: 70rem;
+  top: 23rem;
+}
+.a---- #c- svg {
+  left: 10rem;
+  top: -6rem;
+}
+.a---- #l svg {
+  left: 0rem;
+  top: 25rem;
+  filter: brightness(0) saturate(100%) invert(54%) sepia(74%) saturate(492%) hue-rotate(317deg) brightness(95%) contrast(88%);
+}
+.a---- #t svg {
+  left: 95rem;
+  top: 5rem;
+  filter: brightness(0) saturate(100%) invert(73%) sepia(7%) saturate(848%) hue-rotate(294deg) brightness(86%) contrast(86%);
+}
+
+/* main form */
+.a--- {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.a--- .a-- {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: -2rem;
+  width: 55rem;
+  height: 50rem;
+  /* logo */
+  /* */
+  /* wel */
+  /* */
+  /* all */
+  /* */
+}
+.a--- .a-- .logo {
+  display: flex;
+  flex-direction: row;
+}
+.a--- .a-- .logo p {
+  margin: 0;
+}
+.a--- .a-- #ti- {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 55rem;
+  color: white;
+}
+.a--- .a-- #ti- p {
+  font-family: "Inconsolata ExtraBold";
+  letter-spacing: -0.1rem;
+  font-size: 3rem;
+}
+.a--- .a-- #ti- p, .a--- .a-- #ti- span {
+  display: flex;
+  flex-direction: column;
+}
+.a--- .a-- #ti- #sq {
+  position: relative;
+  top: -1.5rem;
+  font-size: 1rem;
+}
+.a--- .a-- #ti- #mi {
+  text-align: center;
+}
+.a--- .a-- .fi-- {
+  position: relative;
+  top: 0.8rem;
+}
+.a--- .a-- #fd {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.a--- .a-- #ifi {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 0.8rem;
+  gap: 1.5rem;
+}
+.a--- .a-- #ifn, .a--- .a-- #iea, .a--- .a-- #igh, .a--- .a-- #iua {
+  display: flex;
+  flex-direction: column;
+}
+.a--- .a-- input, .a--- .a-- label, .a--- .a-- button {
+  border-radius: 0.45rem;
+  width: 21.5rem;
+  height: 2.2rem;
+}
+.a--- .a-- input {
+  border: 0.1rem solid;
+  text-indent: 0.5rem;
+  border-color: #A39BBE;
+  background-color: rgba(47, 42, 88, 0.4549019608);
+  color: #e4e1ec;
+  outline: none;
+  /* placeheolder */
+  /* */
+  /* focus */
+  /* */
+  /* hover */
+  transition: background-color 0.13s ease;
+  /* */
+}
+.a--- .a-- input::-moz-placeholder {
+  position: relative;
+  font-family: "Inconsolata Regular";
+  color: #c9c7d1;
+}
+.a--- .a-- input::placeholder {
+  position: relative;
+  font-family: "Inconsolata Regular";
+  color: #c9c7d1;
+}
+.a--- .a-- input:focus {
+  border: 0.1rem solid #907ae4;
+}
+.a--- .a-- input:hover {
+  background-color: rgba(43, 39, 80, 0.4117647059);
+}
+.a--- .a-- #iui {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  border: 0.1rem solid;
+  border-style: dashed;
+  border-radius: 0.45rem;
+  border-color: #A39BBE;
+  background-color: rgba(47, 42, 88, 0.4549019608);
+  /* svg */
+  /* */
+  /* span */
+  /* */
+  /* hover */
+  transition: background-color 0.13s ease;
+  /* */
+  /* input */
+  /* */
+}
+.a--- .a-- #iui #iu {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  top: 2.5rem;
+  border: 0.1rem solid;
+  border-radius: 0.45rem;
+  border-color: #A39BBE;
+  background-color: #322E51;
+}
+.a--- .a-- #iui span {
+  position: absolute;
+  top: 5.9rem;
+  font-size: 0.75rem;
+  color: #c9c7d1;
+}
+.a--- .a-- #iui:hover {
+  cursor: pointer;
+  background-color: rgba(43, 39, 80, 0.4117647059);
+}
+.a--- .a-- #iui #u {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  height: 6rem;
+  width: 22rem;
+}
+.a--- .a-- button {
+  width: 22rem;
+  height: 2.5rem;
+  font-family: "Inconsolata ExtraBold";
+  color: #1B011A;
+  background-color: #F57464;
+  border: 0;
+  /* hover */
+  transition: background-color 0.13s ease;
+  /* */
+}
+.a--- .a-- button:hover {
+  cursor: pointer;
+  background-color: #db6959;
+}
+.a--- .a-- label {
+  pointer-events: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: -0.6rem;
+  color: white;
+}
+
+/* */
+/* ticket */
+.ta--- {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 2rem;
+  color: white;
+}
+.ta--- #tci {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ta--- #tci p {
+  font-family: "Inconsolata ExtraBold";
+  letter-spacing: -0.1rem;
+  font-size: 3rem;
+}
+.ta--- #tci #st {
+  position: relative;
+  top: -1.5rem;
+}
+.ta--- #tci #tn {
+  background: linear-gradient(to right, #FB796A, #FFF);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.ta--- #tci #te {
+  color: #FB796A;
+  text-align: inline;
+}
+.ta--- #tci #mii {
+  text-align: center;
+}
+.ta--- #tci #st span {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ta--- .ticket-- {
+  position: relative;
+  top: 4rem;
+  width: 35rem;
+  height: 16rem;
+  border: 0.1rem solid red;
+  -o-border-image: linear-gradient(to right, #FFF, #D57D97) 1;
+     border-image: linear-gradient(to right, #FFF, #D57D97) 1;
+  background-image: linear-gradient(to right, rgba(47, 42, 88, 0.4549019608), rgba(169, 166, 196, 0.4549019608));
+}
+.ta--- .ticket-- #ll {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  left: 2rem;
+  top: 2rem;
+  color: #c9c7d1;
+}
+.ta--- .ticket-- #ll img {
+  position: relative;
+  width: 14.5rem;
+}
+.ta--- .ticket-- #ll span {
+  position: relative;
+  left: 3.8rem;
+}
+.ta--- .ticket-- #pi {
+  position: relative;
+  left: 2rem;
+}
+.ta--- .ticket-- #pi #nif {
+  font-size: 1.5rem;
+}
+.ta--- .ticket-- #rd {
+  writing-mode: vertical-lr;
+  position: absolute;
+  left: 29rem;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  color: #c9c7d1;
+}
+.ta--- .ticket-- #pip {
+  position: relative;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 6rem;
+  width: 4.5rem !important;
+  border-radius: 0.5rem;
+  margin: 0;
+}
+.ta--- .ticket-- #if {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: 5.3rem;
+  top: 0.6rem;
+}
+.ta--- .ticket-- #if #ghid {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+  top: -1.2rem;
+}
+.ta--- .ticket-- #if #ghid span {
+  position: relative;
+  top: 0.2rem;
+}
+
+/* */
+/* err */
+.err {
+  border: 0.1rem solid rgb(167, 0, 0) !important;
+  /* placeholder */
+  /* */
+}
+.err::-moz-placeholder {
+  color: rgb(167, 0, 0) !important;
+}
+.err::placeholder {
+  color: rgb(167, 0, 0) !important;
+}
+
+.err-b {
+  border: 0.1rem solid rgb(167, 0, 0) !important;
+  border-style: dashed !important;
+}
+
+.t-err {
+  color: rgb(167, 0, 0) !important;
+}
+
+/* *//*# sourceMappingURL=style.css.map */
